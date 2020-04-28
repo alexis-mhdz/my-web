@@ -1,0 +1,98 @@
+.footer {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_explore_7ofa.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer h2 span {
+  color: var(--secondary);
+}
+
+/* START INDEX */
+#hero {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_environmental_study_skau.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#hero h1 span {
+  color: var(--secondary);
+}
+
+.contact-us {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* END INDEX  */
+/* START FAQS */
+#faqs {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_questions_75e0.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 22rem;
+  display: flex;
+  align-items: center;
+}
+
+.faqs .accordion .card .card-header {
+  cursor: pointer;
+  position: relative;
+}
+.faqs .accordion .card .card-header::before, .faqs .accordion .card .card-header::after {
+  content: "";
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  width: 12px;
+  height: 2px;
+  background-color: var(--primary);
+}
+.faqs .accordion .card .card-header:not(.collapsed)::after {
+  transform: rotate(90deg);
+}
+.faqs .accordion .card .card-header.collapsed::after {
+  transform: rotate(0deg);
+}
+
+/* END FAQS  */
+/* START CONTACT  */
+#contact {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_contact_us_15o2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_contact_us_15o2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  display: flex;
+  align-items: center;
+}
+
+/* END CONTACT  */
+/* START SERVICES  */
+#services {
+  background: linear-gradient(to bottom, rgba(47, 46, 65, 0.65) 0%, rgba(47, 46, 65, 0.65) 100%), url("../images/undraw_services_5tv9.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  display: flex;
+  align-items: center;
+}
+
+/* END SERVICES  */
+
+/*# sourceMappingURL=style.css.map */

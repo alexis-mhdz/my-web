@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/style.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Web</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarServicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarServicesDropdown">
+                        <a class="dropdown-item" href="servicios.html">Diseño y Desarrollo Web</a>
+                        <a class="dropdown-item" href="servicios.html">Diseño de Imagen Corporativa</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="servicios.html">Marketing Digital</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pregutas-frecuentes.html" class="nav-link">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+                <div class="ml-auto">
+                    <a href="contacto.html" class="btn btn-block btn-secondary">Contáctanos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="hero">
+        <div class="container">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="text-white font-weight-bold mb-5">Nosotros convertimos tus <span class="text-uppercase">ideas</span> en <span class="text-uppercase">realidad</span></h1>
+                    <p class="text-white font-weight-light mb-4">Para nosotros la calidad y el servicio que brindamos es muy importante, siempre tratamos que nuestros clientes obtengan la mejor experiencia.</p>
+                    <a href="servicios.html" class="btn btn-lg btn-secondary">Servicios</a>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section class="our-services py-5">
+        <div class="container">
+            <h2 class="text-uppercase text-center font-weight-bold mb-5">Nuestros servicios</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <article class="card"> 
+                        <img class="card-img-top" src="/dist/images/undraw_web_development_w2vv.svg" alt="Diseño Web">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño y Desarrollo Web</h5>
+                            <p class="card-text">Diseñamos tu sitio web para que más gente puda llegar a tu negocio.</p>
+                          </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <article class="card"> 
+                        <img class="card-img-top" src="/dist/images/undraw_marketing_v0iu.svg" alt="Marketing Digital">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño de Imagen Corporativa</h5>
+                            <p class="card-text">Te ayudamos a darle una identidad a tu negocio, logrando que tus clientes identifiquen tu negocio.</p>
+                          </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <article class="card"> 
+                        <img class="card-img-top" src="/dist/images/undraw_collaborators_prrw.svg" alt="Consultoría">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Digital</h5>
+                            <p class="card-text">Expandimos el alcance de tu negocio, aprovechando al maximo las redes sociales.</p>
+                          </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us py-5">
+        <div class="container">
+            <h2 class="text-uppercase text-center font-weight-bold mb-5">Contáctanos</h2>
+            <div class="row align-items-start">
+                <section class="col-md-6">
+                    <h4 class="font-weight-bold mb-3">¿Necesitas de nuestros servicios?</h4>
+                    <p>Por favor envianos un mensaje llenando el siguiente formulario o contactanos por alguno de los medios que te proporcionamos</p>
+                    <ul>
+                        <li>Dirección de correo electrónico: <a href="mailto:correo@mail.com" class="text-secondary">correo@mail.com</a></li>
+                        <li>Teléfono: <a href="tel:+5543225233" class="text-secondary">55-43-22-52-33</a></li>
+                    </ul>
+                </section>
+                <aside class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="email" class="form-control" id="name" autocomplete="off" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="ejemplo@mail.com" autocomplete="off">
+                            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" rows="8" class="w-100" placeholder="Mensaje..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-secondary">Enviar</button>
+                    </form>                
+                </aside>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-primary text-white py-5">
+        <div class="container">
+            <h2 class="text-uppercase text-center mb-5"><span>Expandamos</span> el <span>alcance</span> de tu <span>negocio</span></h2>
+            <div class="row mb-4">
+                <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-2">Nuestras redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-secondary">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-2">Datos de contacto</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            Teléfono: <a href="tel:5534225233" class="text-secondary">55-43-22-52-33</a>
+                        </li>
+                        <li>
+                            Correo: <a href="mailto:correo@mail.com" class="text-secondary">correo@mail.com</a>
+                        </li>
+                    </ul>
+                    <a href="contacto.html" class="btn btn-secondary">Contacto</a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-2">Acerca de nosotros</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magni in, animi eveniet maxime fugit magnam quia odit cum quas saepe similique ratione ea quisquam ducimus id placeat eligendi ex!</p>
+                </div>
+            </div>
+            <p class="text-center text-muted">&copy;Todos los derechos reservados <a href="#" class="text-secondary">My Web</a> 2020</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+</body>
+</html>
